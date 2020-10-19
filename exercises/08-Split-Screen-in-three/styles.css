@@ -1,12 +1,21 @@
 body {
 	margin: 0;
 }
+.container {
+	display: flex;
+}
 #sectionA {
 	background: blue;
+	width: 33%;
+	height: 100vh;
 }
 #sectionB {
 	background: red;
+	width: 33%;
+	height: 100vh;
 }
 #sectionC {
 	background: green;
+	width: 33%;
+	height: 100vh;
 }

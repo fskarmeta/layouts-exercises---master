@@ -1,4 +1,33 @@
-/* your code here */
+.wrapper {
+	display: grid;
+	grid-template-areas:
+		"h1 h1 h1 h1"
+		"h h h h"
+		"nav sec sec sec";
+}
+
+h1 {
+	grid-area: h1;
+	margin: 0rem 2rem;
+	margin-bottom: 2rem;
+}
+header {
+	grid-area: h;
+	margin: 0rem 2rem;
+}
+
+nav {
+	grid-area: nav;
+	height: 75vh;
+	margin-left: 2rem;
+	margin-right: 0.2rem;
+}
+
+section {
+	grid-area: sec;
+	height: 75vh;
+	margin: 0rem 2rem;
+}
 
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE

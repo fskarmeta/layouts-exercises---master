@@ -1,3 +1,14 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;}
-#content{background: yellow;}
+#wrapper {
+	background: grey;
+	display: flex;
+	height: 100vh;
+}
+
+#sidebar {
+	background: blue;
+	width: 20%;
+}
+#content {
+	background: yellow;
+	width: 80%;
+}
